@@ -6,6 +6,9 @@ console.log('Hello World');
 console.error('This is an error');
 console.warn('This is a warning');
 
+data = "Hello World! Life is Great!"
+document.getElementById('answer').innerHTML = "answer is: " + data
+
 
 // VARIABLES - var, let, const
 let age = 30;
